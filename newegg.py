@@ -13,8 +13,8 @@ from arsenic.services import Geckodriver
 
 driver = webdriver.Firefox()
 
-myEmail = 'adamlt@udel.edu'
-myPass = 'Bigturtle740!'
+myEmail = '' # newegg email
+myPass = '' # newegg password
 
 currNumAddToCarts = 3
 
