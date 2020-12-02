@@ -8799,3 +8799,562 @@ Can't find symbol 'eglSwapBuffersWithDamageEXT'.
 Can't find symbol 'eglSetDamageRegionKHR'.
 JavaScript error: https://c1.neweggimages.com/WebResource/Scripts/Secure/identitysignin-63ae5383.js, line 1: TypeError: CredentialsContainer.get: Missing required 'challenge' member of PublicKeyCredentialRequestOptions.
 JavaScript error: https://c1.neweggimages.com/WebResource/Scripts/Secure/vendor-2c7a200b.js, line 89: Error: Request aborted
+1606865870126	geckodriver	INFO	Listening on 127.0.0.1:54558
+1606865873143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilerDYkMG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606865876587	Marionette	INFO	Listening on port 54566
+1606865876796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606865876800	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"161.202.226.194:8123","httpProxy":"161.202.226.194:8123","sslProxy":"161.202.226.194:8123"}
+1606865882907	Marionette	INFO	Stopped listening on port 54566
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606868313364	geckodriver	INFO	Listening on 127.0.0.1:62418
+1606868316371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileevcAre"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868319667	Marionette	INFO	Listening on port 62426
+1606868320019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868320023	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868339689	Marionette	INFO	Stopped listening on port 62426
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606868345394	geckodriver	INFO	Listening on 127.0.0.1:62476
+1606868348411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilehv2Rjl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868351599	Marionette	INFO	Listening on port 62485
+1606868352062	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868352065	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868352107	geckodriver	INFO	Listening on 127.0.0.1:62520
+1606868355114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilecoFQAk"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868358296	Marionette	INFO	Listening on port 62528
+1606868358757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868358761	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868358811	geckodriver	INFO	Listening on 127.0.0.1:62565
+1606868361817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofile9q9z8B"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868364986	Marionette	INFO	Listening on port 62573
+1606868365471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868365476	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868365546	geckodriver	INFO	Listening on 127.0.0.1:62607
+1606868368552	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileJ1afoS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868372331	Marionette	INFO	Listening on port 62615
+1606868372704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868372708	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868372768	geckodriver	INFO	Listening on 127.0.0.1:62649
+1606868375783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilemEs3UU"
+1606868411190	geckodriver	INFO	Listening on 127.0.0.1:62680
+1606868414218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofiled3xbyB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868417368	Marionette	INFO	Listening on port 62688
+1606868417856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868417860	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868420898	geckodriver	INFO	Listening on 127.0.0.1:62720
+1606868423927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofile2AottB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868427000	Marionette	INFO	Listening on port 62728
+1606868427069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868427073	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868430119	geckodriver	INFO	Listening on 127.0.0.1:62764
+1606868452182	geckodriver	INFO	Listening on 127.0.0.1:62786
+1606868455210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilebX8Snz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868458613	Marionette	INFO	Listening on port 62794
+1606868458847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868458851	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"5.23.102.194:52803","httpProxy":"5.23.102.194:52803","sslProxy":"5.23.102.194:52803"}
+1606868625761	Marionette	INFO	Stopped listening on port 62794
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606868632511	geckodriver	INFO	Listening on 127.0.0.1:62871
+1606868635530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilevzmhot"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868638723	Marionette	INFO	Listening on port 62879
+1606868639161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868639164	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606868642199	geckodriver	INFO	Listening on 127.0.0.1:62912
+1606868645207	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileUgTYU2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868648249	Marionette	INFO	Listening on port 62920
+1606868648349	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868648353	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606868740633	geckodriver	INFO	Listening on 127.0.0.1:63065
+1606868743642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofile7lIPPn"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868747037	Marionette	INFO	Listening on port 63073
+1606868747287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868747292	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606868756529	Marionette	INFO	Stopped listening on port 63073
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606868762328	geckodriver	INFO	Listening on 127.0.0.1:63123
+1606868765335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileOnqbuI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868768498	Marionette	INFO	Listening on port 63131
+1606868768965	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868768968	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: Network Error
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: Request aborted
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: Request aborted
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: Request aborted
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: Request aborted
+1606868870250	Marionette	INFO	Stopped listening on port 63131
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606868876369	geckodriver	INFO	Listening on 127.0.0.1:63250
+1606868879386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilejYuM6g"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868882434	Marionette	INFO	Listening on port 63258
+1606868882539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868882542	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606868950723	Marionette	INFO	Stopped listening on port 63258
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606868956955	geckodriver	INFO	Listening on 127.0.0.1:63346
+1606868959973	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofiledYp6Lb"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606868962508	Marionette	INFO	Listening on port 63354
+1606868962805	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606868962808	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606869017856	Marionette	INFO	Stopped listening on port 63354
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606869024120	geckodriver	INFO	Listening on 127.0.0.1:63426
+1606869027128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilegXGwrK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869030047	Marionette	INFO	Listening on port 63434
+1606869030263	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869030267	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: Network Error
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: timeout of 30000ms exceeded
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: timeout of 30000ms exceeded
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: timeout of 30000ms exceeded
+JavaScript error: https://c1.neweggimages.com/webResource/Scripts/WWW/vendorChunks-b486c7f4.js, line 105: Error: timeout of 30000ms exceeded
+1606869119854	geckodriver	INFO	Listening on 127.0.0.1:63568
+1606869122863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileqtTyJV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869125999	Marionette	INFO	Listening on port 63578
+1606869126512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869126515	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606869264738	geckodriver	INFO	Listening on 127.0.0.1:63636
+1606869267776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileKZ2t1F"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869270324	Marionette	INFO	Listening on port 63644
+1606869270622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869270625	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606869294769	geckodriver	INFO	Listening on 127.0.0.1:63702
+1606869297790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilealKtm6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869300766	Marionette	INFO	Listening on port 63712
+1606869300926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869300931	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606869346316	geckodriver	INFO	Listening on 127.0.0.1:63782
+1606869349354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilepN4tPy"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869352933	Marionette	INFO	Listening on port 63790
+1606869353000	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869353004	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"119.2.54.204:44495","httpProxy":"119.2.54.204:44495","sslProxy":"119.2.54.204:44495"}
+1606869529565	geckodriver	INFO	Listening on 127.0.0.1:63944
+1606869532572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofile1bnv7V"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869535687	Marionette	INFO	Listening on port 63952
+1606869535741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869535746	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"103.250.68.10:8080","httpProxy":"103.250.68.10:8080","sslProxy":"103.250.68.10:8080"}
+1606869603583	Marionette	INFO	Stopped listening on port 63952
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+(new Error("", "(unknown module)"))
+1606869541895	Marionette	INFO	Listening on port 63998
+1606869541967	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869541971	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"103.250.68.10:8080","httpProxy":"103.250.68.10:8080","sslProxy":"103.250.68.10:8080"}
+1606869563811	Marionette	INFO	Stopped listening on port 63998
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606869604594	geckodriver	INFO	Listening on 127.0.0.1:64129
+1606869607612	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileGz5aqG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869610988	Marionette	INFO	Listening on port 64137
+1606869611264	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869611270	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"103.250.68.10:8080","httpProxy":"103.250.68.10:8080","sslProxy":"103.250.68.10:8080"}
+1606869775968	Marionette	INFO	Stopped listening on port 64137
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1606869778807	geckodriver	INFO	Listening on 127.0.0.1:64206
+1606869781825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileTr6gH5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869784777	Marionette	INFO	Listening on port 64214
+1606869784963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869784967	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606869862080	geckodriver	INFO	Listening on 127.0.0.1:64347
+1606869865098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileSQImfB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869868131	Marionette	INFO	Listening on port 64355
+1606869868239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869868244	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606869962853	geckodriver	INFO	Listening on 127.0.0.1:64491
+1606869965867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileIXfvmM"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606869969090	Marionette	INFO	Listening on port 64499
+1606869969499	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606869969503	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606870037208	geckodriver	INFO	Listening on 127.0.0.1:64591
+1606870040239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilebuc6S5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870043619	Marionette	INFO	Listening on port 64599
+1606870043879	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870043884	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606870095829	geckodriver	INFO	Listening on 127.0.0.1:64678
+1606870098858	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilei91h6b"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870101341	Marionette	INFO	Listening on port 64686
+1606870101580	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870101583	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606870118510	geckodriver	INFO	Listening on 127.0.0.1:64748
+1606870121528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilewXmvg6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870124456	Marionette	INFO	Listening on port 64756
+1606870124669	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870124674	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606870233023	geckodriver	INFO	Listening on 127.0.0.1:64904
+1606870236032	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileWFNniL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870239249	Marionette	INFO	Listening on port 64912
+1606870239673	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870239678	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606870339046	geckodriver	INFO	Listening on 127.0.0.1:65025
+1606870342052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilep4RM7q"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870344852	Marionette	INFO	Listening on port 65033
+1606870345197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870345201	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.234.126.107:55555","httpProxy":"85.234.126.107:55555","sslProxy":"85.234.126.107:55555"}
+1606870417618	geckodriver	INFO	Listening on 127.0.0.1:65094
+1606870420625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilegDIFdx"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870424206	Marionette	INFO	Listening on port 65102
+1606870424272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870424276	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"176.62.178.247:47556","httpProxy":"176.62.178.247:47556","sslProxy":"176.62.178.247:47556"}
+1606870502783	geckodriver	INFO	Listening on 127.0.0.1:65204
+1606870505796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileUkP3gL"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870509424	Marionette	INFO	Listening on port 65212
+1606870509952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870509955	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"176.62.178.247:47556","httpProxy":"176.62.178.247:47556","sslProxy":"176.62.178.247:47556"}
+1606870605139	geckodriver	INFO	Listening on 127.0.0.1:65291
+1606870608157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileOIxJy4"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870611588	Marionette	INFO	Listening on port 65299
+1606870611807	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870611811	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"176.62.178.247:47556","httpProxy":"176.62.178.247:47556","sslProxy":"176.62.178.247:47556"}
+1606870693302	geckodriver	INFO	Listening on 127.0.0.1:65365
+1606870696309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileSSn8ML"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870699100	Marionette	INFO	Listening on port 65373
+1606870699451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870699454	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"176.62.178.247:47556","httpProxy":"176.62.178.247:47556","sslProxy":"176.62.178.247:47556"}
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+Handler function _httpStopRequest threw an exception: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsITraceableChannel.setNewListener]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _setupResponseListener :: line 1085"  data: no]
+Stack: _setupResponseListener@resource://devtools/server/actors/network-monitor/network-observer.js:1085:38
+_createNetworkEvent@resource://devtools/server/actors/network-monitor/network-observer.js:911:12
+_httpStopRequest@resource://devtools/server/actors/network-monitor/network-observer.js:409:14
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1085, column: 0
+console.error: ({})
+1606870896666	geckodriver	INFO	Listening on 127.0.0.1:49158
+1606870899703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofiletlxswE"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606870902999	Marionette	INFO	Listening on port 49166
+1606870903335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606870903339	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"176.62.178.247:47556","httpProxy":"176.62.178.247:47556","sslProxy":"176.62.178.247:47556"}
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+1606871086386	geckodriver	INFO	Listening on 127.0.0.1:49429
+1606871089402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileTr20j9"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606871093144	Marionette	INFO	Listening on port 49437
+1606871093551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606871093555	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.237.46.168:53468","httpProxy":"85.237.46.168:53468","sslProxy":"85.237.46.168:53468"}
+1606871188738	geckodriver	INFO	Listening on 127.0.0.1:49498
+1606871191767	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileXhIISf"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606871194827	Marionette	INFO	Listening on port 49506
+1606871194920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606871194924	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"85.237.46.168:53468","httpProxy":"85.237.46.168:53468","sslProxy":"85.237.46.168:53468"}
+1606871435700	geckodriver	INFO	Listening on 127.0.0.1:49656
+1606871438721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileAuhx6m"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606871441980	Marionette	INFO	Listening on port 49671
+1606871442362	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606871442366	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"165.227.83.185:3128","httpProxy":"165.227.83.185:3128","sslProxy":"165.227.83.185:3128"}
+1606871471524	geckodriver	INFO	Listening on 127.0.0.1:49735
+1606871474556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofileTadS8V"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606871478408	Marionette	INFO	Listening on port 49743
+1606871478717	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606871478722	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"165.227.83.185:3128","httpProxy":"165.227.83.185:3128","sslProxy":"165.227.83.185:3128"}
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: https://c1.neweggimages.com/WebResource/Scripts/Secure/identitysignin-63ae5383.js, line 1: TypeError: CredentialsContainer.get: Missing required 'challenge' member of PublicKeyCredentialRequestOptions.
+JavaScript error: https://c1.neweggimages.com/WebResource/Scripts/Secure/vendor-2c7a200b.js, line 89: Error: Request aborted
+JavaScript error: https://c1.neweggimages.com/WebResource/Scripts/Secure/vendor-2c7a200b.js, line 89: Error: Request aborted
+1606871646324	geckodriver	INFO	Listening on 127.0.0.1:49936
+1606871649330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADAMTR~1\\AppData\\Local\\Temp\\rust_mozprofilehFIvFj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606871652452	Marionette	INFO	Listening on port 49946
+1606871652971	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606871652975	Marionette	INFO	Proxy settings initialised: {"proxyType":"manual","ftpProxy":"51.81.82.175:80","httpProxy":"51.81.82.175:80","sslProxy":"51.81.82.175:80"}
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.

@@ -10,11 +10,37 @@ from selenium.webdriver.support import expected_conditions as EC
 from arsenic import get_session
 from arsenic.browsers import Firefox
 from arsenic.services import Geckodriver
+from http_request_randomizer.requests.proxy.requestProxy import RequestProxy
 
-driver = webdriver.Firefox()
+req_proxy = RequestProxy()  # you may get different number of proxy when  you run this at each time
+proxies = req_proxy.get_proxy_list()  # this will create proxy list
 
-myEmail = '' # newegg email
-myPass = '' # newegg password
+usProxies = []
+
+for proxy in proxies:
+    if(proxy.country == 'United States'):
+        usProxies.append(proxy.get_address())
+# PROXY = proxies[0].get_address()
+# print('my proxy address: ', PROXY)  # '179.127.241.199:53653'
+# print('my proxy country: ', proxies[0].country)  # 'Brazil'
+
+# for p in proxies:
+#     print(p.get_address(), p.country)
+
+proxyIndex = 0
+
+print('using ip: ', usProxies[0])
+webdriver.DesiredCapabilities.FIREFOX['proxy'] = {
+    "httpProxy": usProxies[0],
+    "ftpProxy": usProxies[0],
+    "sslProxy": usProxies[0],
+    "proxyType": "MANUAL",
+}
+# proxyIndex = i + 1
+driver = webdriver.Firefox(executable_path= r"C:\Users\Adam Tran\PycharmProjects\bestbuyAutoBuyer\geckodriver.exe")
+
+myEmail = 'adamlt@udel.edu' # newegg email
+myPass = 'Bigturtle740!' # newegg password
 
 currNumAddToCarts = 3
 
@@ -33,6 +59,7 @@ URL = "https://www.newegg.com/msi-radeon-rx-6800-xt-rx-6800-xt-16g/p/N82E1681413
 
 # logs in to your newegg account
 def logIn():
+    print('loggin in...')
     time.sleep(1)
     emailAddress = driver.find_element_by_id('labeled-input-signEmail')
     emailAddress.send_keys(myEmail)
@@ -58,7 +85,7 @@ def autoBuy():
     # clicks the sign in button on the newegg.com home page in the navigation bar
     signInLink = driver.find_element_by_class_name("nav-complex-title")
     signInLink.click()
-    logIn()
+    logIn(driver)
     # driver.get("https://www.newegg.com/")
     driver.get(URL)
 
@@ -114,7 +141,6 @@ def autoBuy():
     addToCartButton = driver.find_element_by_class_name("btn-wide")
     addToCartButton.click()
     time.sleep(1)
-    print('signing in!')
     logIn()
     time.sleep(2)
 
@@ -130,7 +156,7 @@ def autoBuy():
         # continueToPayment.click()
         driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
         time.sleep(3)
-        clickCheckout()
+        clickCheckout(driver)
         # scrollAndClick('checkout-step-action-done')
 
     except:
@@ -140,18 +166,20 @@ def autoBuy():
     print('AutoBuyer program terminated')
 
 
-def main(run):
+def main(run, i):
     try:
+        # val = setup(i)
         print('Starting autobuy run#', run)
         autoBuy()
     except:
         print("Run# ", run, " failed:", sys.exc_info()[0])
+        # driver.close()
         run = run + 1
-        main(run)
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(autoBuy())
-    # loop.close()
+        main(run, i)
+        # loop = asyncio.get_event_loop()
+        # loop.run_until_complete(autoBuy())
+        # loop.close()
 
 if __name__ == '__main__':
     run = 1
-    main(run)
+    main(run, proxyIndex)
