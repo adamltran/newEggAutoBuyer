@@ -1,0 +1,7 @@
+{
+  "email": "",
+  "password": "",
+  "cvv": "",
+  "refreshSlow": "30",
+  "refreshFast": "35"
+}

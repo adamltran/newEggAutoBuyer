@@ -1,31 +1,45 @@
 import sys
 import time
-from telnetlib import EC
+import tkinter
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import random
-from http_request_randomizer.requests.proxy.requestProxy import RequestProxy
 from selenium.common.exceptions import NoSuchElementException, WebDriverException, ElementNotInteractableException
-from selenium.webdriver.common.by import By
 
 from selenium.webdriver.support.ui import WebDriverWait
 
+import json
+from tkinter import *
 
-myEmail = '' # newegg email
-myPass = '' # newegg password
-cvvNum = '' # credit card CVV
-refreshRate = 60
+# load credentials file
+with open('account.json') as f:
+  account = json.load(f)
+
+# credentials
+myEmail = account['email']
+myPass = account['password']
+cvvNum = account['cvv']
+refreshSlow = int(account['refreshSlow'])
+refreshFast = int(account['refreshFast'])
 
 low = 2
 high = 3
 
+cardPurchased = False
+# options = Options()
+# options.add_argument('--headless')
+# driver = webdriver.Chrome(options=options)
+# driver = webdriver.Chrome()
 
 def getRandomInt(low, high):
     return random.uniform(low, high)
-    # return random.randint(low,high)
 
 def sleepRandTime():
-    time.sleep(getRandomInt(low, high))
+    return time.sleep(getRandomInt(low, high))
+
+def refreshRandTime():
+    return random.uniform(refreshSlow, refreshFast)
 
 currNumAddToCarts = 0
 numAttempts = 1
@@ -39,7 +53,13 @@ numAttempts = 1
 # URL = "https://www.newegg.com/msi-radeon-rx-6800-xt-rx-6800-xt-16g/p/N82E16814137607?Description=6800%20xt&cm_re=6800_xt-_-14-137-607-_-Product&quicklink=true"
 
 # rtx 3080 link
-URL = "https://www.newegg.com/xfx-radeon-rx-6800-xt-rx-68xtacbd9/p/N82E16814150844"
+# URL = "https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-gaming/p/N82E16814126457?Description=3080&cm_re=3080-_-14-126-457-_-Product&quicklink=true"
+URL = "https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-gaming/p/N82E16814126457?Description=asus%203080&cm_re=asus_3080-_-14-126-457-_-Product"
+
+# URL = "https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kr/p/N82E16814487518?Description=3080&cm_re=3080-_-14-487-518-_-Product"
+# URL = "https://www.newegg.com/xfx-radeon-rx-6800-rx-68xlatbd9/p/N82E16814150845?Description=6800%20speedster&cm_re=6800_speedster-_-14-150-845-_-Product&quicklink=true"
+# URL = "https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-gaming/p/N82E16814126457?Description=3080&cm_re=3080-_-14-126-457-_-Product&quicklink=true"
+# URL = "https://www.newegg.com/xfx-radeon-rx-6800-xt-rx-68xtacbd9/p/N82E16814150844"
 
 def closePopup():
     global driver
@@ -75,9 +95,12 @@ def login(paying):
         except:
             print('no captcha detected')
 
+        # sleepRandTime()
+        # WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID, 'labeled-input-password')))
         password = driver.find_element_by_id('labeled-input-password')
         password.send_keys(myPass)
-
+        # sleepRandTime()
+        # WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.ID, 'signInSubmit')))
         signInButton = driver.find_element_by_id('signInSubmit')
         signInButton.click()
     except:
@@ -99,9 +122,12 @@ def clickCheckout():
 
 def loadHome():
     global driver
-
+    # print('loading new egg home page...')
+    # driver.get('https://whatismyipaddress.com/')
     driver.get("https://www.newegg.com/")
+    # WebDriverWait(driver, 10)
     time.sleep(5)
+    # sleepRandTime()
     closePopup()
 
 def signInFromHome():
@@ -127,15 +153,21 @@ def addToCart():
 
     while not foundButton:
         numAddToCarts = 0
+        # driver.find_element_by_class_name("btn-wide")
+        # driver.find_element_by_xpath("//button['Add to Cart']")
         closePopup()
         try:
-
+            # WebDriverWait(driver, 5)
             addToCartButtonRef = driver.find_elements_by_xpath("//button['Add to Cart']")
+            # print('found the add to cart button...')
             for item in addToCartButtonRef:
                 if (item.get_attribute('innerHTML') == 'Add to cart <i class="fas fa-caret-right"></i>'):
                     numAddToCarts = numAddToCarts + 1
             addToCartButton = addButton = addToCartButtonRef
+            # print("numAddToCarts: ", numAddToCarts)
             if numAddToCarts < currNumAddToCarts:
+                # delay or wait some time between tries
+                # time.sleep(3)  # wait 3 seconds
 
                 # refresh the page
                 print("Couldn't add to cart! Refreshing page... (Attempt #", numAttempts, ")")
@@ -145,18 +177,15 @@ def addToCart():
                 # then go back to look for button again
                 addToCartButton = addButton = addToCartButtonRef
             else:
+                # print('Found the button!')
                 foundButton = True
                 break;
         except:
             print('Encountered error: ', sys.exc_info())
-
+    # closePopup()
     try:
         print('Attempting to add the item to the cart!')
-        addToCartButtonRef = driver.find_elements_by_xpath("//button['Add to Cart']")
-        for item in addToCartButtonRef:
-            if (item.get_attribute('innerHTML') == 'Add to cart <i class="fas fa-caret-right"></i>'):
-                print('trying to click add to cart...')
-                item.click()
+        driver.find_element_by_xpath('//*[@id="ProductBuy"]/div/div[2]/button').click()
         goToCart()
     except ElementNotInteractableException:
         print('Something popped up and blocked adding the item to the cart : ', sys.exc_info())
@@ -174,8 +203,7 @@ def secureCheckout():
 def continueToPayment():
     print('continuing to payment...')
     try:
-        time.sleep(3)
-        # WebDriverWait(driver, 2)
+
         print('locating payment button...')
         payButton = driver.find_element_by_class_name('checkout-step-action-done')
         print(payButton)
@@ -183,8 +211,7 @@ def continueToPayment():
         try:
             time.sleep(.5)
             print('trying to click payment button')
-            # driver.find_element_by_xpath("//button[contains(@class, 'checkout-step-action-done') and contains(text(), 'Continue to payment')]).click();")
-            # payButton.click()
+
             driver.find_element_by_xpath("/html/body/div[6]/div/section/div/div/form/div[2]/div[1]/div[2]/div[2]/div/div[3]/button").click()
         except:
             print('found but could not click payment button: ', sys.exc_info())
@@ -215,6 +242,8 @@ def reviewOrder():
         print('Could not find review order button at all: ', sys.exc_info())
 
 def placeOrder():
+    global cardPurchased
+
     try:
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(1)
@@ -222,6 +251,7 @@ def placeOrder():
         print('Found the place order button: ', placeOrderButton)
         placeOrderButton.click()
         print('Successfully placed your order!')
+        cardPurchased = True
     except:
         print('Ran into an error clicking the place order button: ', sys.exc_info())
 
@@ -238,22 +268,24 @@ def loopPlaceOrder():
         loopPlaceOrder()
 
 def keepAdding():
-    global run
+    global run, driver, cardPurchased
 
-    loadItem()
-    addToCart()
-    try:
-        secureCheckout()
-        login(True)
-        continueToPayment()
-        loopReviewOrder()
-        loopPlaceOrder()
-    except:
-        print('Waiting for '+str(refreshRate)+' seconds before refreshing again...')
-        time.sleep(refreshRate)
-        print("Starting Run# ", run)
-        run = run + 1
-        keepAdding()
+    while not cardPurchased:
+        # loadItem()
+        addToCart()
+        try:
+            secureCheckout()
+            login(True)
+            continueToPayment()
+            loopReviewOrder()
+            loopPlaceOrder()
+        except:
+            waitMe = refreshRandTime()
+            print('Waiting for '+str(waitMe)+' seconds before refreshing again...')
+            time.sleep(waitMe)
+            print("Starting Run# ", run)
+            run = run + 1
+            driver.refresh()
 
 # main function that refreshes indefinitely until an item is in stock, then tries to place your order.
 def autoBuy():
@@ -261,9 +293,10 @@ def autoBuy():
     print('Auto Buyer program started...')
     driver.maximize_window()
     loadHome()
-    signInFromHome()
-    login(False)
-
+    # signInFromHome()
+    # login(False)
+    time.sleep(5)
+    loadItem()
     keepAdding()
 
     print('AutoBuyer program terminated')
@@ -272,8 +305,10 @@ def main():
     global run, driver
 
     try:
-
-        driver = webdriver.Chrome()
+        options = Options()
+        options.add_argument('--headless')
+        driver = webdriver.Chrome(options=options)
+        # driver = webdriver.Chrome()
         autoBuy()
     except WebDriverException:
         print("Run# ", run, " failed:", sys.exc_info())
@@ -290,6 +325,27 @@ def main():
         time.sleep(5)
         driver.quit()
 
+# def click():
+#     print('button clicked')
+#     main()
+
+# def close_window():
+#     global driver
+#     window.destroy()
+#     driver.quit()
+#     exit()
+
 if __name__ == '__main__':
     run = 1
+    # window = Tk()
+    # window.title("Newegg Autobuying Bot")
+    # window.configure(background="black")
+    # Label (window, text="Enter your newegg email:", bg="black", fg="white", font="none 12 bold") .grid(row=1, column=0, sticky=W)
+    # textEntry = Entry(window, width=20, bg="white")
+    # textEntry.grid(row=2, column=0, sticky=W)
+    # Button(window, text="START BOT", width=11, command=click) .grid(row=3, column=0, sticky=W)
+    # output = Text(window, width=75, height=6, wrap=WORD, background="white")
+    # output.grid(row=5, column=0, columnspan=2, sticky=W)
+    # Button(window, text="EXIT", width=11, command=close_window).grid(row=3, column=0, sticky=E)
+    # window.mainloop()
     main()
