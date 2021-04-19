@@ -1,16 +1,12 @@
 import sys
 import time
-import tkinter
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import random
-from selenium.common.exceptions import NoSuchElementException, WebDriverException, ElementNotInteractableException
-
-from selenium.webdriver.support.ui import WebDriverWait
-
 import json
+import random
 from tkinter import *
+from tkinter.ttk import Progressbar
+from selenium.common.exceptions import NoSuchElementException, WebDriverException, ElementNotInteractableException
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
 
 # load credentials file
 with open('account.json') as f:
@@ -335,17 +331,70 @@ def main():
 #     driver.quit()
 #     exit()
 
-if __name__ == '__main__':
-    run = 1
-    # window = Tk()
-    # window.title("Newegg Autobuying Bot")
-    # window.configure(background="black")
-    # Label (window, text="Enter your newegg email:", bg="black", fg="white", font="none 12 bold") .grid(row=1, column=0, sticky=W)
-    # textEntry = Entry(window, width=20, bg="white")
-    # textEntry.grid(row=2, column=0, sticky=W)
-    # Button(window, text="START BOT", width=11, command=click) .grid(row=3, column=0, sticky=W)
+def start(selectedItem, window):
+    # Add progress bar and disable all entries
+    progressBar = Progressbar(window, mode="indeterminate", ).grid(row=1, column=2, sticky=E)
+
+    print(selectedItem.get())
+
+def stop(window):
+    # Hide progress bar and enable all entries again
+    Progressbar(window, mode="indeterminate", ).grid(row=1, column=2, sticky=E)
+
+
+def createGUI():
+    window = Tk()
+    window.title("Autobuying Bot")
+    window.configure(background="#efefef")
+
+    # Center dialog box
+    windowWidth = window.winfo_reqwidth()
+    windowHeight = window.winfo_reqheight()
+    positionRight = int(window.winfo_screenwidth() / 2 - windowWidth)
+    positionDown = int(window.winfo_screenheight() / 2 - windowHeight)
+    window.geometry("+{}+{}".format(positionRight, positionDown))
+
+    # Dropdown list setup
+    products = ["Nvidia RTX3080", "Nvidia RTX3090", "Nvidia RTX3060 TI", "Radeon RX 6800", "Xbox Series X"]
+    selected = StringVar(window)
+    selected.set(products[0])  # Default first item in list on open
+
+    # Dropdown label and selection box
+    Label(window, text="Product", bg="#efefef", fg="black", font="none 12 bold").grid(row=1, column=0, sticky=W)
+    OptionMenu(window, selected, *products).grid(row=1, column=1, sticky=W)
+
+    # Email label and entry box
+    Label(window, text="Username/Email", bg="#efefef", fg="black", font="none 12 bold").grid(row=2,column=0,sticky=W)
+    emailEntry = Entry(window, width=40, bg="white").grid(row=2, column=1, sticky=W)
+
+    # Password label and entry box
+    Label(window, text="Password", bg="#efefef", fg="black", font="none 12 bold").grid(row=3, column=0,sticky=W)
+    Entry(show="*", width=40).grid(row=3, column=1, sticky=W)
+
+    # Credit card number label and entry box
+    Label(window, text="Credit Card Number", bg="#efefef", fg="black", font="none 12 bold").grid(row=4, column=0, sticky=W)
+    Entry(width=40).grid(row=4, column=1, sticky=W)
+
+    # CVV label and entry box
+    Label(window, text="CVV", bg="#efefef", fg="black", font="none 12 bold").grid(row=5, column=0, sticky=W)
+    Entry(show="*", width=40).grid(row=5, column=1, sticky=W)
+
+    Label(window, text="Min Refresh Time", bg="#efefef", fg="black", font="none 12 bold").grid(row=6, column=0, sticky=W)
+    Entry(width=40).grid(row=6, column=1, sticky=W)
+
+    Label(window, text="Max Refresh Time", bg="#efefef", fg="black", font="none 12 bold").grid(row=7, column=0, sticky=W)
+    Entry(width=40).grid(row=7, column=1, sticky=W)
+
+    # Start and stop button
+    Button(window, text="Start", width=11, bg="green", font="none 12 bold", command=start(selected, window)).grid(row=8, column=0, sticky=W)
+    Button(window, text="Stop", width=11, bg="red", font="none 12 bold", command=stop(window)).grid(row=8, column=2, sticky=E)
+
     # output = Text(window, width=75, height=6, wrap=WORD, background="white")
     # output.grid(row=5, column=0, columnspan=2, sticky=W)
-    # Button(window, text="EXIT", width=11, command=close_window).grid(row=3, column=0, sticky=E)
-    # window.mainloop()
+
+    window.mainloop()
+
+if __name__ == '__main__':
+    run = 1
+    createGUI()
     main()
